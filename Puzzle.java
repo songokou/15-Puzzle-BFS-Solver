@@ -34,7 +34,6 @@ public class Puzzle {
 		State s = new State(4,4,tiles);
 
 		Solver solve = new Solver(s);
-		DFSolver dfsolve = new DFSolver(s,10);
 	}
 	
 //	public static Vector<Tile> 
